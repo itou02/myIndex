@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+        #wrapper{
+            width: 100vw;
+            height: 100vh;
+        }
+        .content{
+            display: flex;
+            justify-content: space-around;
+            width: 100vw;
+        }
+        .content-in{
+            display: block;
+            width: 20vw;
+            text-align: center;
+            background-color: #eee;
+            margin: 1% 0;
+            padding:1%;
+        }
+        h2{
+            color: slateblue;
+        }
+
+        h2:hover{
+            text-decoration: underline;
+        }
+
+        #hd1hd5{
+            color: green;
+        }
+
+        #hd4hd8{
+            color: blue;
+        }
+
+        span{
+            color: red;
+            font-size: 1.5em;
+            text-decoration: underline;
+        }
+
+        p{
+            text-decoration: underline;
+        }
+
+        #hd3hd7{
+            background-color: #ffa;
+        }
+
+        #hd6{
+            background-color: #faa;
+        }
+
+        #hd1hd5zin:hover{
+            cursor: zoom-in;
+        }
+
+        #hd2hd6zout:hover{
+            cursor: zoom-out;
+        }
+
+        #hd3hd7po:hover{    
+            cursor: pointer;
+        }
+
+        #hd4hd8no:hover{
+            cursor: no-drop;
+        }
+
+        .hd5opa:hover{
+            filter: opacity(0.5);
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="content">
+            <div class="content-in">
+                <img src="https://picsum.photos/200/200?random=1" alt="">
+                <h2 id="hd1hd5">Heading1</h2>
+                <p>tortor mauris condimentum nibh<span>, ut fermentum massa justo sit amet risus.</span></p>
+            </div>
+
+            <div class="content-in">
+                <img src="https://picsum.photos/200/200?random=2" alt="" id="hd2hd6zout">
+                <h2>Heading2</h2>
+                <p>tortor mauris condimentum nibh<span>, ut fermentum massa justo sit amet risus.</span></p>
+            </div>
+
+            <div class="content-in" id="hd3hd7">
+                <img src="https://picsum.photos/200/200?random=3" alt="" id="hd3hd7po">
+                <h2>Heading3</h2>
+                <p>tortor mauris condimentum nibh<span>, ut fermentum massa justo sit amet risus.</span></p>
+            </div>
+
+            <div class="content-in">
+                <img src="https://picsum.photos/200/200?random=4" alt="" id="hd4hd8no">
+                <h2>Heading4</h2>
+                <p id="hd4hd8">tortor mauris condimentum nibh<span>, ut fermentum massa justo sit amet risus.</span></p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-in">
+                <img src="https://picsum.photos/200/200?random=5" alt="" id="hd1hd5zin" class="hd5opa">
+                <h2 id="hd1hd5">Heading5</h2>
+                <p>tortor mauris condimentum nibh<span>, ut fermentum massa justo sit amet risus.</span></p>
+            </div>
+
+            <div class="content-in" id="hd6">
+                <img src="https://picsum.photos/200/200?random=6" alt="" id="hd2hd6zout">
+                <h2>Heading6</h2>
+                <p>tortor mauris condimentum nibh<span>, ut fermentum massa justo sit amet risus.</span></p>
+            </div>
+
+            <div class="content-in" id="hd3hd7">
+                <img src="https://picsum.photos/200/200?random=7" alt="" id="hd3hd7po">
+                <h2>Heading7</h2>
+                <p>tortor mauris condimentum nibh<span>, ut fermentum massa justo sit amet risus.</span></p>
+            </div>
+
+            <div class="content-in">
+                <img src="https://picsum.photos/200/200?random=8" alt="" id="hd4hd8no">
+                <h2>Heading8</h2>
+                <p id="hd4hd8">tortor mauris condimentum nibh<span>, ut fermentum massa justo sit amet risus.</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

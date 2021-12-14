@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.middle{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+}
+
+.top{
+    margin:auto;
+    padding: 5% 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content_left{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img_left{
+    display: flex;
+    justify-content:center;
+}
+
+.content_right{
+
+}
+
+.login_top{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(104, 102, 102);
+    background-color: white;
+    margin-bottom: 3%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+.acc{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.txt{
+    
+    border-radius: 5px;
+    border: none;
+    width: 95%;
+    background-color: rgb(245, 244, 243);
+    line-height: 30px;
+}
+
+.password{
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.sign{
+    margin: 3%;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(129, 180, 247);
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    line-height: 30px;
+}
+
+.or{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3%;
+}
+
+.hr1{
+    margin: 1% ;
+    width: 40%;
+}
+
+.ortxt{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+
+hr{
+    width: 100%;
+    background-color: rgb(170, 170, 170);
+    height: 1px;
+}
+
+.fb{
+    display: flex;
+    justify-content: center;
+    color: rgb(46, 0, 130);
+    margin: 3%;
+}
+
+.content_r_under{
+    display: flex;
+    justify-content: center;
+    border: solid 1px rgb(109, 106, 106);
+    padding: 5% 0;
+}
+
+.content_r_under_under{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.download{
+    display: flex;
+    flex-direction: row;
+}
+
+.download_left{
+    padding: 1%;
+}
+
+.download_right{
+    padding: 1%;    
+}
+
+.bottom{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}   
+
+.content_top{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a:link{
+    color: #000;
+}
+
+.p_top{
+    margin: 1%;
+}
+
+.p_center{
+    display: flex;
+    justify-content: center;
+}
+
+select{
+    border: none;
+}
+
+.content_bottom{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
