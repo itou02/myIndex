@@ -163,8 +163,17 @@ header{
     padding: 0 10px;
 }
 
-#item_last{
+.item_last{
     margin-left: 20%;
     border: none;
+    
+}
+
+.item_last a:link{
     color: rgb(71, 71, 71);
+    text-decoration: none;
+}
+
+.item_last a:hover{
+    text-decoration: underline;
 }
