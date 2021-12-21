@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.head{
+    width: 100%;
+    background-color: rgb(22, 192, 204);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
+header{
+    width:75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+.head:hover{
+    background-color: black;
+}
+
+.head_left{
+    width: 70%;
+}
+
+.head_left ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.head_left ul li a:link,.head_right ul li a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.head_left ul li a:hover,.head_right ul li a:hover{
+    color: rgb(24, 167, 211);
+}
+
+
+.head_right{
+    margin-left: 10%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.head_right ul{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.bottom{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(50, 50, 54);
+    color: gray;
+}
+.middle{
+    margin: 0 auto;
+    margin-bottom: 1%;
+    padding-bottom: 5%;
+    width: 75%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    
+}
+
+.bottom_left{
+    width: 11%;
+    padding: 5% 0;
+}
+
+.bottom_right{
+    width: 90%;
+    display: flex;
+    padding: 5% 0 0 10%;
+}
+
+.item{
+    width: 25%;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.item_top{
+    padding-bottom: 15%;
+}
+
+.item_under2{
+    margin-top: 47%;
+}
+
+.item ul{
+    list-style: none;
+}
+
+.item ul li a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.item ul li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+.under{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.under_top{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.under .under_top ul{
+    display: flex;
+    width: 35%;
+}
+
+.under .under_top ul li{
+    width: 70%;
+    display: flex;
+    list-style: none;
+    margin: 0 1%;
+}
+
+.under .under_top ul li a:link{
+    color: gray;
+    text-decoration: none;
+}
+
+.under ul li a:hover{
+    color: rgb(172, 169, 169);
+    text-decoration: underline;
+}
+
+select{
+    color: white;
+    background-color: transparent;
+    border: none;
+}

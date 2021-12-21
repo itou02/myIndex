@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 5%;
+    padding: 8px;
+    background-color: rgb(46, 46, 46);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.head_center{
+    margin: 0 auto;
+    width: 58.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.head_center ul{
+    margin-top: 0.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head_center ul li{
+    list-style: none;
+    display: inline;
+}
+
+.head_center a:link{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 2.5%;
+}
+
+.head{
+    background-color: red;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(221, 221, 221);
+}
+
+#buy:hover{
+    text-decoration: underline;
+}
+
+.pic{
+    width: 100%;
+}
+
+.bottom{
+    width: 100%;
+    margin-top: 1%;
+    background-color: rgba(233, 231, 231, 0.425);
+    display: flex;
+    justify-content: left;
+}
+
+.center{
+    width: 70%;
+    flex-direction: column;
+    margin: auto;
+}
+
+.bottom_p p{
+    font-size: 12px;
+    padding: 1% 0;
+    border-bottom: 1px solid rgb(97, 97, 97);
+}
+
+.list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.list_li{
+    width: 20%;
+}
+
+.list_li ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.list_li ul li{
+    line-height: 25px;
+    
+}
+
+.list_li ul li a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+.list_li ul li a:hover{
+    color: rgb(71, 71, 71);
+    text-decoration: underline;
+}
+
+
+.list ul li:link{
+    color: rgb(71, 71, 71);
+}
+
+.acc{
+    margin-top: 10%;
+}
+
+.strong{
+    font-weight: bold;
+}
+
+.bottom_under_p p{
+    font-size: 1px;
+    padding: 1% 0;
+    border-bottom: 1px solid rgb(97, 97, 97);
+}
+
+.bottom_under_p2{
+    display: flex;
+    flex-direction: row;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+}
+
+.item a:link{
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+    border-right: 1px solid gray;
+    padding: 0 10px;
+}
+
+#item_last{
+    margin-left: 20%;
+    border: none;
+    color: rgb(71, 71, 71);
+}
